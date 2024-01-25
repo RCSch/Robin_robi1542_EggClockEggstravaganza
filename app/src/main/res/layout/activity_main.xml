@@ -1,0 +1,114 @@
+<!-- activity_clock.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <!-- activity_main.xml -->
+
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_gravity="center">
+
+        <!-- Clock 1 -->
+        <include
+            layout="@layout/activity_clock"
+            android:id="@+id/activityClock1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:visibility="visible"/>
+
+        <!-- Clock 2 -->
+        <include
+            layout="@layout/activity_clock"
+            android:id="@+id/activityClock2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:visibility="gone"/>
+
+        <!-- Clock 3 -->
+        <include
+            layout="@layout/activity_clock"
+            android:id="@+id/activityClock3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:visibility="gone"/>
+
+        <!-- Clock 4 -->
+        <include
+            layout="@layout/activity_clock"
+            android:id="@+id/activityClock4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:visibility="gone"/>
+
+        <!-- Clock 5 -->
+        <include
+            layout="@layout/activity_clock"
+            android:id="@+id/activityClock5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:visibility="gone"/>
+
+        <!-- Clock 6 -->
+        <include
+            layout="@layout/activity_clock"
+            android:id="@+id/activityClock6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:visibility="gone"/>
+
+        <!-- Clock 7 -->
+        <include
+            layout="@layout/activity_clock"
+            android:id="@+id/activityClock7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:visibility="gone"/>
+
+        <!-- Clock 8 -->
+        <include
+            layout="@layout/activity_clock"
+            android:id="@+id/activityClock8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:visibility="gone"/>
+
+        <!-- Clock 9 -->
+        <include
+            layout="@layout/activity_clock"
+            android:id="@+id/activityClock9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:visibility="gone"/>
+    </GridLayout>
+
+
+</LinearLayout>
