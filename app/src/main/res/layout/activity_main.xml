@@ -21,7 +21,7 @@
 
         <!-- Clock 1 -->
         <include
-            layout="@layout/activity_clock"
+            layout="@layout/clock_item"
             android:id="@+id/activityClock1"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -31,7 +31,7 @@
 
         <!-- Clock 2 -->
         <include
-            layout="@layout/activity_clock"
+            layout="@layout/clock_item"
             android:id="@+id/activityClock2"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -41,7 +41,7 @@
 
         <!-- Clock 3 -->
         <include
-            layout="@layout/activity_clock"
+            layout="@layout/clock_item"
             android:id="@+id/activityClock3"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -51,7 +51,7 @@
 
         <!-- Clock 4 -->
         <include
-            layout="@layout/activity_clock"
+            layout="@layout/clock_item"
             android:id="@+id/activityClock4"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -61,7 +61,7 @@
 
         <!-- Clock 5 -->
         <include
-            layout="@layout/activity_clock"
+            layout="@layout/clock_item"
             android:id="@+id/activityClock5"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -71,7 +71,7 @@
 
         <!-- Clock 6 -->
         <include
-            layout="@layout/activity_clock"
+            layout="@layout/clock_item"
             android:id="@+id/activityClock6"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -81,7 +81,7 @@
 
         <!-- Clock 7 -->
         <include
-            layout="@layout/activity_clock"
+            layout="@layout/clock_item"
             android:id="@+id/activityClock7"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -91,7 +91,7 @@
 
         <!-- Clock 8 -->
         <include
-            layout="@layout/activity_clock"
+            layout="@layout/clock_item"
             android:id="@+id/activityClock8"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -101,7 +101,7 @@
 
         <!-- Clock 9 -->
         <include
-            layout="@layout/activity_clock"
+            layout="@layout/clock_item"
             android:id="@+id/activityClock9"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -109,6 +109,5 @@
             android:layout_rowSpan="1"
             android:visibility="gone"/>
     </GridLayout>
-
 
 </LinearLayout>
